@@ -1,4 +1,5 @@
+import cal
 a=int(input("enter the first value"))
 b=int(input("ebter the second value"))
-c=a+b
-print(c)
+cal.add(a,b)
+cal.sub(a,b)
